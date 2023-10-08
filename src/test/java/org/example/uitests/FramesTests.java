@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class FramesTests extends BaseTestClass {
     @Test
-    public void switchToFrame() {
+    public void switchToFram() {
         driver.get("https://the-internet.herokuapp.com/nested_frames");
         driver.switchTo().frame("frame-bottom");
 

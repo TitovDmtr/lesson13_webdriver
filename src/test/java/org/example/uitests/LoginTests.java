@@ -66,12 +66,9 @@ public class LoginTests {
         userPassField.clear();
         userPassField.sendKeys(USER_PASS);
 
-//        WebElement buttonLogin = driver.findElement(By.xpath("//i[@class='fa fa-2x fa-sign-in']"));
         WebElement buttonLogin = driver.findElement(By.cssSelector("i[class^=fa]"));
 
         buttonLogin.click();
-
-//        WebElement textLogin = driver.findElement(By.xpath("//*[@id='content']/div/h4"));
         WebElement textLogin = driver.findElement(By.cssSelector("#content>div>h4"));
 
         Assert.assertEquals(textLogin.getText(), "Welcome to the Secure Area. When you are done click logout below.");

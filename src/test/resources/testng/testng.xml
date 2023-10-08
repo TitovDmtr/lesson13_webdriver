@@ -4,11 +4,12 @@
 <suite name = "SimpleTest suite name">
     <test name = "SimpleTest test name">
         <classes>
-            <!--
-                            <class name = "org.example.uitests.Titov_13HW_Test"/>
+            <class name = "org.example.uitests.Titov_13HW_DataProvider_Test"/>
+            <class name = "org.example.uitests.Titov_13HW_WithoutDataProvider_Test"/>
 
-                            <class name = "ua.ithillel.testng.SeleniumTest"/>
-                        -->
+            <!--
+            <class name = "ua.ithillel.testng.SeleniumTest"/>
+            -->
         </classes>
 
 
